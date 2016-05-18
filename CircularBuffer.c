@@ -34,7 +34,8 @@ uint8_t *writePtr;
 
 
 int main(int argc, const char * argv[]) {
-    initialize(4);
+    uint8_t sampleSize = 10;
+    initialize(sampleSize);
     return 0;
 }
 
