@@ -43,7 +43,7 @@ void initialize(size_t size)
     uint8_t buffer[size];
     
     memset(buffer, 0, sizeof(buffer));
-    maxSize = 0;
+    maxSize = size;
     
     //Initializes all the pointers as well.
     origBufferAddress = &buffer[0];
